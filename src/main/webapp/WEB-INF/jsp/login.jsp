@@ -1,16 +1,15 @@
 <html>
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Guru Registration Form</title>
+<title>First Web Application</title>
 </head>
+
 <body>
-My First JSP!!!
-
-Welcome ${name}!
-
-<hr>
-<h3>Login Form</h3>
-</hr>
-
+	<form method="post">
+		Name : <input type="text" name="name" />
+		Password : <input type="password" name="password" /> 
+		<input type="submit" />
+	</form>
 </body>
+
 </html>
