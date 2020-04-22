@@ -1,3 +1,8 @@
+Component, Service, Repository, Controller
+Autowired
+ComponentScan
+
+
 Spring Boot Starter Parent
 Spring Boot Starter Web
 @SpringBootApplication
