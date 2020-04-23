@@ -1,6 +1,5 @@
 package com.in28minutes.springboot.web.springbootfirstwebapplication.service;
 
-import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Service;
 
 @Service
