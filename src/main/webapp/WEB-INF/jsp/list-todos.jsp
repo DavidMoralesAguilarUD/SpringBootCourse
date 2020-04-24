@@ -5,9 +5,10 @@
 </head>
 
 <body>
-	Here are the list of your todo:
+	Here are the list of ${name} your todo:
 	${todos}
-	Your name is: ${name}
+	<BR/>
+	<a href="/add-todo">Add a Todo</a>
 </body>
 
 </html>
