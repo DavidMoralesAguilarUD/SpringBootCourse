@@ -3,7 +3,7 @@
 <html>
 
 <head>
-	<title>Tod's for ${name}</title>
+	<title>Todo's for ${name}</title>
 	<link href="webjars/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
@@ -16,17 +16,19 @@
 					<th>USER</th>	
 					<th>Description</th>
 					<th>Target Done</th>
-					<th>Is it Done?</th>	
+					<th>Is it Done?</th>
+					<th>Delete</th>	
 				</tr>
 			</thead>
 			<tbody>
 				<c:forEach items="${todos}" var="todo">
 				<tr>
-					<th>${todo.id}</th> 
-					<th>${todo.user}</th> 	
-					<th>${todo.desc}</th>
-					<th>${todo.targetDate}</th>
-					<th>${todo.done}</th>	
+					<td>${todo.id}</td> 
+					<td>${todo.user}</td> 	
+					<td>${todo.desc}</td>
+					<td>${todo.targetDate}</td>
+					<td>${todo.done}</td>
+					<td><a type="buton" class="btn btn-warning" href="/delete-todo?id=${todo.id}">Delete</a></td>	
 				</tr>
 				</c:forEach>
 			</tbody>
